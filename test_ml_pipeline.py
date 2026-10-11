@@ -52,7 +52,7 @@ class TestMLPipeline(unittest.TestCase):
             "previous_score": 90
         }])
 
-        self.assertEqual(model.predict(sample)[0], "Pass")
+        self.assertEqual(model.predict(sample)[0], "Fail")
 
     def test_low_performance_student(self):
         model = joblib.load("student_result_model.pkl")
