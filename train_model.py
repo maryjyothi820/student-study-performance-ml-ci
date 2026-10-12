@@ -1,4 +1,3 @@
-```python
 import json
 import joblib
 import pandas as pd
@@ -113,4 +112,3 @@ def train_model():
 
 if __name__ == "__main__":
     train_model()
-```
