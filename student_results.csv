@@ -1,0 +1,11 @@
+study_hours,attendance,assignments_completed,sleep_hours,social_media_hours,previous_score,result
+8,95,10,8,1,90,Pass
+6,85,8,7,2,75,Pass
+2,55,2,5,6,40,Fail
+1,45,1,4,7,30,Fail
+7,90,9,8,2,85,Pass
+3,60,3,6,5,45,Fail
+5,80,7,7,3,70,Pass
+2,50,1,5,6,35,Fail
+9,98,10,8,1,95,Pass
+4,65,4,6,5,50,Fail
