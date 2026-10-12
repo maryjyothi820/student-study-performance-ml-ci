@@ -1,0 +1,14 @@
+
+Student Performance Prediction API
+
+Install dependencies using:
+pip install -r requirements.txt
+
+Run the API using:
+python app.py
+
+The API health endpoint is:
+http://localhost:5000/health
+
+The prediction endpoint is:
+http://localhost:5000/predict
