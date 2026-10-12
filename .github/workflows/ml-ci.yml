@@ -40,3 +40,11 @@ jobs:
 
       - name: Run automated ML tests
         run: python -m unittest discover -v
+      - name: Upload ML artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: student-performance-artifacts
+          path: |
+            metrics.json
+            student_performance_model.pkl
+          if-no-files-found: error
